@@ -6,7 +6,7 @@ end
 
 def take_a_number2()
   $counter+=1
-  put "Welcome you are ticket number #{$counter}."  
+  puts "Welcome you are ticket number #{$counter}."  
 end
 
 $counter = 0 
