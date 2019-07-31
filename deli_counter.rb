@@ -4,6 +4,17 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
+def take_a_number2()
+  $counter+=1
+  put "Welcome you are ticket number #{$counter}."  
+end
+
+$counter = 0 
+take_a_number2()
+take_a_number2()
+take_a_number2()
+
+
 def line (array)
   string = "The line is currently: "
   if array.length == 0 
